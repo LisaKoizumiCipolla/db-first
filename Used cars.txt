@@ -1,0 +1,37 @@
+Table name: Used cars
+
+ID                             NUMBER (UNSIGNED)      MEDIUMINT           PRIMARY_KEY      AUTOINCREMENT 
+PICTURE                        STRING                 TEXT                NOT_NULL
+PRICE                          NUMBER                 FLOAT (9, 2)        NOT_NULL
+MAKE                           STRING                 VARCHAR (25)        NOT_NULL
+MODEL                          STRING                 VARCHAR (100)       NOT_NULL
+TRIM                           STRING                 VARCHAR (15)        NULL
+MI                             NUMBER                 SMALLINT            NOT_NULL
+YEAR_OF_PRODUCTION             DATE                   YEAR                NULL
+FUEL_TYPE                      STRING                 VARCHAR (30)        NOT_NULL
+EURO_NORM                      STRING                 VARCHAR (10)        NULL
+BODY_TYPE                      STRING                 VARCHAR (20)        NULL
+COLOUR                         STRING                 VARCHAR (20)        NULL
+SELLER_LOCATION_COUNTRY        STRING                 VARCHAR (30)        NOT_NULL
+SELLER_LOCATION_CITY           STRING                 VARCHAR (30)        NOT_NULL
+POWER                          STRING                 VARCHAR (15)        NULL
+TRANSMISSION                   STRING                 VARCHAR (10)        NOT_NULL
+CAR_ENGINE_DISPLACEMENT        NUMBER                 FLOAT (4, 3)        NULL   
+SEAT_NUMBER                    NUMBER                 SMALLINT            NULL
+DOORS_NUMBER                   NUMBER                 SMALLINT            NULL
+AVAILABLE_FROM                 DATE                   DATE                NOT_NULL
+FIRST_REGISTRATION             DATE                   DATE                NULL
+DESCRIPTION                    STRING                 TEXT                NULL
+ABS                            STRING                 VARCHAR (3)         NULL
+AIRBAG                         STRING                 VARCHAR (3)         NULL
+AIR_CONDITIONING               STRING                 VARCHAR (3)         NULL
+ALLOY_WHEELS                   STRING                 VARCHAR (3)         NULL
+BUMPER                         STRING                 VARCHAR (3)         NULL
+CENTRAL_LOCKING                STRING                 VARCHAR (3)         NULL
+ELECTRIC_WINDOWS               STRING                 VARCHAR (3)         NULL
+FOG_LIGHTS                     STRING                 VARCHAR (3)         NULL
+POWER_STEERING                 STRING                 VARCHAR (3)         NULL
+REMOTE_CENTRAL_LOCKING         STRING                 VARCHAR (3)         NULL
+HEATED_SEAT                    STRING                 VARCHAR (3)         NULL
+IMMOBILIZER                    STRING                 VARCHAR (3)         NULL
+SUNROOF                        STRING                 VARCHAR (3)         NULL
